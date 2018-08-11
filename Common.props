@@ -3,9 +3,9 @@
   <PropertyGroup>
     <Copyright>Antoine Griffard</Copyright>
     <Authors>Antoine Griffard</Authors>
-    <RepositoryUrl>https://github.com/agriffard/Disqus.OrchardCore</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/agriffard/Disqus.OrchardCore</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/agriffard/Disqus.OrchardCore/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/agriffard/Resume.OrchardCore</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/agriffard/Resume.OrchardCore</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/agriffard/Resume.OrchardCore/blob/master/LICENSE.txt</PackageLicenseUrl>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
