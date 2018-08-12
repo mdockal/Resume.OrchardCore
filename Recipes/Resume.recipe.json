@@ -841,7 +841,7 @@
                   "Tokenized": false
                 },
                 "Hint": null,
-                "Editor": "Multiline",
+                "Editor": "Wysiwyg",
                 "Position": "0"
               }
             }
@@ -1528,6 +1528,31 @@
                 }
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "content",
+      "Data": [
+        {
+          "ContentItemId": "[js: uuid()]",
+          "ContentType": "HtmlWidget",
+          "Latest": true,
+          "Published": true,
+          "Owner": "[js: parameters('AdminUsername')]",
+          "Author": "[js: parameters('AdminUsername')]",
+          "LayerMetadata": {
+            "Title": "Profile",
+            "Layer": "Always",
+            "Zone": "Left",
+            "RenderTitle": false,
+            "Position": 10
+          },
+          "HtmlWidget": {
+            "Content": {
+              "Html": "[file:text('Snippets/left.html')]"
+            }
           }
         }
       ]
