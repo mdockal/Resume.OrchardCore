@@ -841,7 +841,7 @@
                   "Tokenized": false
                 },
                 "Hint": null,
-                "Editor": "Wysiwyg",
+                "Editor": "Multiline",
                 "Position": "0"
               }
             }
