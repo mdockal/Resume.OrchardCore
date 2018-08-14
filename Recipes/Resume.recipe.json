@@ -86,7 +86,7 @@
         "ContentItemId": "[js: variables('defaultContentItemId')]"
       },
       "LayerSettings": {
-        "Zones": [ "Left", "Content" ]
+        "Zones": [ "HeadMeta", "Left", "Content" ]
       }
     },
     {

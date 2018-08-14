@@ -5,15 +5,19 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <title>{{ Site.SiteName }}</title>
-
+    <link rel="icon" type="image/x-icon" href="/Resume.OrchardCore/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/Resume.OrchardCore/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Resume.OrchardCore/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Resume.OrchardCore/favicon-16x16.png">
+    <link rel="manifest" href="/Resume.OrchardCore/site.webmanifest">
+    <link rel="mask-icon" href="/Resume.OrchardCore/safari-pinned-tab.svg" color="#2b5797">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#2b5797">	
+    {% render_section "HeadMeta", required: false %}
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    {% script name:"Bootstrap", use_cdn:"true", version:"4", at:"Foot" %}
     {% style name:"bootstrap", use_cdn:"true", version:"4" %}
     {% style name:"font-awesome", use_cdn:"true", version:"5" %}
 
@@ -49,6 +53,7 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
+    {% script name:"bootstrap", use_cdn:"true", version:"4", at:"Foot" %}
     {% resources type: "FootScript" %}
 
     <!-- Plugin JavaScript -->
