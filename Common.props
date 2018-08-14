@@ -1,11 +1,10 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
   <PropertyGroup>
-    <Copyright>Antoine Griffard</Copyright>
     <Authors>Antoine Griffard</Authors>
     <RepositoryUrl>https://github.com/agriffard/Resume.OrchardCore</RepositoryUrl>
     <PackageProjectUrl>https://github.com/agriffard/Resume.OrchardCore</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/agriffard/Resume.OrchardCore/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/agriffard/Resume.OrchardCore/blob/master/LICENSE</PackageLicenseUrl>
     <TargetFramework>netstandard2.0</TargetFramework>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
