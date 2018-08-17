@@ -43,6 +43,7 @@
     <div class="container-fluid p-0">
       {% render_body %}
     </div>
+    {% render_section "Footer", required: false %}
     <!-- Bootstrap core JavaScript -->
     {% script name:"bootstrap", use_cdn:"true", version:"4", at:"Foot" %}
     {% resources type: "FootScript" %}
